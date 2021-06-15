@@ -1,2 +1,11 @@
 app:
-  firebase-configuration-file: spring-boot-noti-firebase-adminsdk-hzvh5-d6d5cc8978.json
+  firebase-configuration-file: google/spring-boot-noti-firebase-adminsdk.json
+  notifications:
+    defaults: '{
+      "topic": "common",
+      "title": "Common topic - Hello",
+      "message": "Sending test message \uD83D\uDE42",
+      "token": "ss22t03wz208eg:APA2idkkow223FE_0v5yHxqCLTyxAQafj6nWaqi4QzwZTW004q1PUux63UsFN",
+      "payloadMessageId": "123",
+      "payloadData": "Hello. This is payload content."
+      }'
